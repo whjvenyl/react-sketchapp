@@ -1,31 +1,30 @@
 {
-  "name": "foursquare-maps",
+  "name": "form-validation",
   "private": true,
-  "main": "foursquare-maps.sketchplugin",
+  "main": "form-validation.sketchplugin",
   "manifest": "src/manifest.json",
   "scripts": {
     "build": "skpm build",
     "watch": "skpm build --watch",
     "render": "skpm build --watch --run",
     "render:once": "skpm build --run",
-    "web": "react run src/web.js",
-    "link-plugin": "skpm link"
+    "link-plugin": "skpm link",
+    "web": "react run src/web.js"
   },
-  "author": "Jon Gold <jon.gold@airbnb.com>",
+  "author": "Lloyd Wheeler <lloyd@lloydwheeler.co.uk>",
   "license": "MIT",
   "dependencies": {
-    "jquery-param": "^0.2.0",
-    "nwb": "^0.15.6",
     "prop-types": "^15.5.8",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-native": "^0.42.3",
     "react-primitives": "^0.3.4",
-    "react-primitives-google-static-map": "^1.0.1",
     "react-sketchapp": "^0.10.0",
     "react-test-renderer": "^15.4.1"
   },
   "devDependencies": {
+    "extract-text-webpack-plugin": "^2.1.0",
+    "nwb": "^0.15.6",
     "skpm": "^0.9.0"
   }
 }
